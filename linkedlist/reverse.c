@@ -30,7 +30,8 @@ void reversePrint( SinglyLinkedListNode* head) {
           //Store the next node in the list
         next = current->next;
 
-        //Reverse the pointer so that it will be pointing to the previous (or the last              current). On the first iteration, the head will also point to null because previous reference is NULL initially
+        //Reverse the pointer so that it will be pointing to the previous (or the last current).
+        //On the first iteration, the head will also point to null because previous reference is NULL initially
         current->next = prev;
         //Change the previous reference to the current node to set up for next reverse. 
         prev = current;
