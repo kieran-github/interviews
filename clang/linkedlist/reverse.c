@@ -25,7 +25,7 @@ void reversePrint( SinglyLinkedListNode* head) {
     SinglyLinkedListNode *head_ref = NULL;
 
     while (current!=NULL){
-   }
+
     //reset the head of the list
           //Store the next node in the list
         next = current->next;
@@ -38,6 +38,6 @@ void reversePrint( SinglyLinkedListNode* head) {
 
         //advance forward one node.
         current = next;
-
+    }
    head_ref = prev;
 }
